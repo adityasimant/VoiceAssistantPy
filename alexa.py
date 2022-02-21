@@ -66,7 +66,7 @@ if __name__ == "__main__" :
         elif "open linkedin" in query:
             webbrowser.open("www.linkedin.com")   
         elif "play music" in query:
-            music_dir =  'E:\\music'
+            music_dir =  'E:\\music' #path will vary for file.
             songs = os.listdir(music_dir)
             os.startfile(os.path.join(music_dir, songs[0]))
 
